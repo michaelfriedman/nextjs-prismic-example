@@ -1,0 +1,25 @@
+{
+  "name": "prismic-next-blog",
+  "version": "1.0.0",
+  "description": "Guide code for building a simple blog that uses Prismic+Next+Now",
+  "main": "index.js",
+  "author": "Michael David Friedman <hi@mdf.fyi>",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "deploy": "now"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.0.0",
+    "prismic-javascript": "^2.1.1",
+    "prismic-reactjs": "^1.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "now": "^15.5.0"
+  }
+}
